@@ -1,0 +1,12 @@
+type Query {
+    products: [Product]
+    product_id(id: Int): [Product]
+    
+    favorites: [ProductSelected]
+    shopping_cart: [ProductSelected]
+    
+    users: [User]
+    user_id(id: Int): [User]
+    user_email(email: String): [User]
+    user_phone(phone: String): [User]
+}

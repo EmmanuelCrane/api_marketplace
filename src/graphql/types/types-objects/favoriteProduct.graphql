@@ -1,0 +1,17 @@
+type ProductSelected {
+    id: Int
+    user_id: Int
+    product_id: Int
+    category: String
+    images: String
+    brand: String
+    description: String
+    offer: Int
+    price: Float
+    status: String
+    about: String
+    specification: String
+    info_additional: String
+    other_models: String
+    createdAt: String
+}
